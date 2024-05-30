@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+}
+th {
+    color: white;
+    background-color: black;
+    text-align: left;
+}
+
+td {
+    background-color: white;
+    color: black;
+}
+th,td{
+    padding: 0.25rem 0.5rem;
+}
+table {
+    background-color: black;
+    margin: auto;
+}
+
+
+#mountainResults{
+margin: .5rem auto;
+width: 50%;
+border: 1px solid black;
+text-align: center;
+/* display: flex;
+justify-content: center;
+align-items: center; */
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#mountainImage{
+    margin: auto;
+    text-align: center;
+}

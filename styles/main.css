@@ -1,0 +1,49 @@
+body{
+    box-sizing: content-box;
+    background-color: pink;
+    color: solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw
+}
+a.box{
+    width: 60vw;
+    height: 40vw;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 0 0 2px black;
+    position: relative;
+}
+.box img {
+    object-fit:contain;
+    width: 60vw;
+    height: 40vw;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+}
+.box{
+    border: 1px solid rgb(0, 0, 0);
+    width: 30vw;
+    height: 20vw;
+}
+#content{
+    vertical-align: top;
+    display:flex;
+    gap: 0.5rem;
+}
+#content img{
+    width:60vw;
+
+}
+#content p{
+    width:30vw;margin:0;
+    background-color: antiquewhite;
+}
